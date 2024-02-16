@@ -18,7 +18,7 @@
           src="./assets/icons/cloud-showers-heavy.svg"
           class="weather-icon large"
         />
-        <div><span>32</span>&deg;C</div>
+        <div><span data-current-temp>32</span>&deg;C</div>
       </div>
 
       <div class="current-right">
@@ -154,5 +154,16 @@
         </div>
       </div>
     </section>
+
+    <template id="day-card-template">
+      <div class="day-card">
+        <span class="day"></span>
+        <img src="" alt="weather-icon" class="weather-icon" />
+        <div>
+          <span class="value" data-day-temp></span>
+          <span class="unit">&deg;C</span>
+        </div>
+      </div></template
+    >
   </body>
 </html>
