@@ -1,7 +1,6 @@
-Weather App Workshop
+# Bonnies Weather App 
 
-# Based on Ironhack Weather App
-
+Workshop by Ironhack
 ---
 
 My experience:
